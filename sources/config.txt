@@ -1,0 +1,48 @@
+PASSO 01 - ACESSANDO DIRETÓRIO PARA GERAR O REPO GIT
+cd /home/mjpsoluc
+
+PASSO 02 - APAGAR DIRETÓRIO PUBLIC_HTML
+rm -rf fonts
+
+PASSO 03 - CLONANDO O REPO GIT PAR O DIRETÓRIO PUBLIC_HTML
+git clone git@github.com:amjr/MyServerFonts.git fonts
+
+PASSO 04 - CORRIGE ERROS DE PERMISSÃO - ERRO 500 NO SITE
+chown -R mjpsoluc:mjpsoluc /home/mjpsoluc/public_html/fonts
+chmod -R 755 /home/mjpsoluc/public_html/fonts
+
+PASSO 05 - PUXANDO ARQUIVOS DO DIRETÓRIO (QUANDO NECESSITAR DE ATUALIZAR O DIRETÓRIO)
+git pull origin master
+
+PASSO 06 - GERANDO O PRIMEIRO COMMIT
+git commit --all
+
+PASSO 07 - ATULIZANDO OS ARQUIVOS COM OS DO REPOSITÓRIO MASTER
+git merge master
+
+NAVEGAR NA PÁGINA PUBLIC_HTML
+cd /home/mjpsoluc/public_html/fonts
+
+LIMPAR HISTÓRICO DE COMANDOS DO LINUX
+history -c
+
+VER O REPO REMOTE
+git remote; ou
+git remote -v
+
+EXCLUINDO O DIRETÓRIO
+git remote rm git@github.com:amjr/MyServerFonts.git
+
+EXCLUINDO ARQUIVOS DO GIT
+rm -rf .git
+find . -type f | grep -i .git | xargs rm -f
+
+ENTRADAS MX
+1 - aspmx.l.google.com
+5 - alt1.aspmx.l.google.com
+6 - alt2.aspmx.l.google.com
+10 - aspmx2.googlemail.com
+10 - aspmx3.googlemail.com
+
+CNAME mail.aciaaraguari.com.br
+mail 14400 IN CNAME ghs.googlehosted.com.

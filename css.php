@@ -37,7 +37,7 @@
 						case "IE":
 							$fontCSS .= "  src: url('" . $dir . "/fonts/" . $familia . "/" . $font . "/" . $font . ".eot');\n";
 							$fontCSS .= "  src: url('" . $dir . "/fonts/" . $familia . "/"  . $font . "/" . $font . ".eot') format('embedded-opentype'),\n";
-							$fontCSS .= "  url('" . $dir . "/fonts/" . $familia . "/"  . $font . "/" . $font . ".woff) format('woff');";
+							$fontCSS .= "  url('" . $dir . "/fonts/" . $familia . "/"  . $font . "/" . $font . ".woff') format('woff');";
 						break;
 						
 						// padrão para OPERA
