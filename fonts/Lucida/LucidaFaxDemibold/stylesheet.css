@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'LucidaFaxDemibold';
+    src: url('LucidaFaxDemibold.eot');
+    src: url('LucidaFaxDemibold.eot') format('embedded-opentype'),
+         url('LucidaFaxDemibold.woff') format('woff'),
+         url('LucidaFaxDemibold.ttf') format('truetype'),
+         url('LucidaFaxDemibold.svg#LucidaSansUnicodeRegular') format('svg');
+}

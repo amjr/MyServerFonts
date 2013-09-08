@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'LucidaConsoleRegular';
+    src: url('LucidaConsoleRegular.eot');
+    src: url('LucidaConsoleRegular.eot') format('embedded-opentype'),
+         url('LucidaConsoleRegular.woff') format('woff'),
+         url('LucidaConsoleRegular.ttf') format('truetype'),
+         url('LucidaConsoleRegular.svg#LucidaSansUnicodeRegular') format('svg');
+}

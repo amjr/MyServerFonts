@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'LucidaBrightItalic';
+    src: url('LucidaBrightItalic.eot');
+    src: url('LucidaBrightItalic.eot') format('embedded-opentype'),
+         url('LucidaBrightItalic.woff') format('woff'),
+         url('LucidaBrightItalic.ttf') format('truetype'),
+         url('LucidaBrightItalic.svg#LucidaBrightItalic') format('svg');
+}

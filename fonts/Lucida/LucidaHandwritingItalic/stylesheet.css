@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'LucidaHandwritingItalic';
+    src: url('LucidaHandwritingItalic.eot');
+    src: url('LucidaHandwritingItalic.eot') format('embedded-opentype'),
+         url('LucidaHandwritingItalic.woff') format('woff'),
+         url('LucidaHandwritingItalic.ttf') format('truetype'),
+         url('LucidaHandwritingItalic.svg#LucidaSansUnicodeRegular') format('svg');
+}

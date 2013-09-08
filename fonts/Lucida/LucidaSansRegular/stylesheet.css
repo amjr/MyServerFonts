@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'LucidaSansRegular';
+    src: url('LucidaSansRegular.eot');
+    src: url('LucidaSansRegular.eot') format('embedded-opentype'),
+         url('LucidaSansRegular.woff') format('woff'),
+         url('LucidaSansRegular.ttf') format('truetype'),
+         url('LucidaSansRegular.svg#LucidaSansUnicodeRegular') format('svg');
+}

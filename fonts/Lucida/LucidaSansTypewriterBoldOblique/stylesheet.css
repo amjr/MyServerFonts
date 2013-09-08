@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'LucidaSansTypewriterBoldOblique';
+    src: url('LucidaSansTypewriterBoldOblique.eot');
+    src: url('LucidaSansTypewriterBoldOblique.eot') format('embedded-opentype'),
+         url('LucidaSansTypewriterBoldOblique.woff') format('woff'),
+         url('LucidaSansTypewriterBoldOblique.ttf') format('truetype'),
+         url('LucidaSansTypewriterBoldOblique.svg#LucidaSansUnicodeRegular') format('svg');
+}
